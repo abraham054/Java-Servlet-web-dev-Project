@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="csgo_dataApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>csgo_dataApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="csgo_dataApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="csgo_dataApp:war exploded" />
+    </root>
+  </artifact>
+</component>

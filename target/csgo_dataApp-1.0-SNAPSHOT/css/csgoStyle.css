@@ -1,0 +1,75 @@
+body.main{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("../media/img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 730px;
+}
+body.response{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("../media/img_1.png");
+    background-repeat: no-repeat;
+    background-color: rgb(11 14 19);
+    background-size: cover;
+    background-position: center;
+    height: 730px;
+}
+
+
+.titulo{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 4px solid #333;
+    font-size: 64px;
+    font-family: 'Audiowide', cursive;
+    color: white;
+
+}
+
+.input{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
+.form {
+    margin: 5px 10% 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
+.consult {
+    margin: 5px 10% 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
+.ans{
+    padding: 5px;
+}
+
+.boton{
+    padding: 15px 32px;
+    background-image: linear-gradient(rgb(38 127 85), rgb(25 62 45));
+    border: 2px solid rgb(43 121 64);
+    border-radius: 4px;
+    text-align: center;
+    width: 30%;
+    margin: 5px 3px 5px;
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-size: 16px;
+}

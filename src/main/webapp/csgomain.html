@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Csgo Data Consulter</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/csgoStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="main">
+    <div class="titulo">Consultas de datos CSGO</div>
+
+    <form class="form" method="post" action="csgoApp">
+        <div class="details">
+            Consulte por el KDA de algun jugador con respecto a los equipos en los que ha competido<br>
+            <label>Nombre del jugador
+                <input type="text" size="50" maxlength="50" name="nombrePlayer" required="required" class="input">
+            </label>
+            <br>
+            <input type="text" value="playerKDAperTeam.jsp" name="consulta" hidden="hidden">
+            <input type="submit" value="Aceptar" class="boton">
+        </div>
+    </form>
+
+    <form class="form" method="post" action="csgoApp">
+        <div class="details">
+            Consulte por el equipo que ha sido derrotado mas veces por un jugador<br>
+            <label>Nombre del jugador
+                <input type="text" size="50" maxlength="50" name="nombrePlayer" required="required" class="input">
+            </label>
+            <br>
+            <input type="text" value="playerTW.jsp" name="consulta" hidden="hidden">
+            <input type="submit" value="Aceptar" class="boton">
+        </div>
+    </form>
+
+    <form class="form" method="post" action="csgoApp">
+        <div class="details">
+            Consulte por la media historia de kills de un jugador<br>
+            <label>Nombre del jugador
+                <input type="text" size="50" maxlength="50" name="nombrePlayer" required="required" class="input">
+            </label>
+            <br>
+            <input type="text" value="playerHMK.jsp" name="consulta" hidden="hidden">
+            <input type="submit" value="Aceptar" class="boton">
+        </div>
+    </form>
+
+    <form class="form" method="post" action="csgoApp">
+        <div class="details">
+            Consulte por el numero de victorias de un equipo por evento en el que participo<br>
+            <label>Nombre del jugador
+                <input type="text" size="50" maxlength="50" name="nombrePlayer" required="required" class="input">
+            </label>
+            <br>
+            <input type="text" value="playerWpE.jsp" name="consulta" hidden="hidden">
+            <input type="submit" value="Aceptar" class="boton">
+        </div>
+    </form>
+
+</body>
+</html>
